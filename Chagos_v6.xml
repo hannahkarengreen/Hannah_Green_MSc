@@ -1,0 +1,700 @@
+<?xml version="1.0"?>
+<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">
+<?xml-stylesheet type="text/xsl" href="http://www.imars.usf.edu/MC/misc/USF_ISO.xsl"?>
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20080409</CreaDate>
+		<CreaTime>13442100</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20080409</SyncDate>
+		<SyncTime>13442300</SyncTime>
+		<ModDate>20080422</ModDate>
+		<ModTime>12081600</ModTime>
+		<MetaID>{86DF9EDB-0FFC-4529-9624-0C9DE7011C94}</MetaID>
+	</Esri>
+	<mdContact>
+		<rpIndName>Christine Kranenburg</rpIndName>
+		<rpOrgName>University of South Florida</rpOrgName>
+		<rpPosName>GIS Analyst</rpPosName>
+		<rpCntInfo>
+			<cntAddress>
+				<delPoint>140 7th Ave. South</delPoint>
+				<city>St. Petersburg</city>
+				<adminArea>FL</adminArea>
+				<postCode>33701</postCode>
+				<eMailAdd>kranenbu@marine.usf.edu</eMailAdd>
+				<country>us</country>
+			</cntAddress>
+			<cntPhone>
+				<voiceNum>727-553-3987</voiceNum>
+				<faxNum>727-553-1130</faxNum>
+			</cntPhone>
+		</rpCntInfo>
+		<role>
+			<RoleCd value="009">
+			</RoleCd>
+		</role>
+	</mdContact>
+	<dataIdInfo>
+		<idCitation>
+			<citRespParty>
+				<rpIndName>Serge Andrefouet</rpIndName>
+				<rpOrgName>Institut de Recherche pour le Developpement</rpOrgName>
+				<rpCntInfo>
+					<cntAddress>
+						<delPoint>BP A5</delPoint>
+						<city>Noumea</city>
+						<postCode>98848</postCode>
+						<eMailAdd>serge.andrefouet@noumea.ird.nc</eMailAdd>
+						<country>nc</country>
+					</cntAddress>
+					<cntPhone>
+						<voiceNum>687-26 08 00</voiceNum>
+						<faxNum>687-26 43 26</faxNum>
+					</cntPhone>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="008">
+					</RoleCd>
+				</role>
+				<rpPosName>Charge de Recherche</rpPosName>
+			</citRespParty>
+			<citRespParty>
+				<rpIndName>Christine Kranenburg</rpIndName>
+				<rpOrgName>University of South Florida</rpOrgName>
+				<rpPosName>GIS Analyst</rpPosName>
+				<role>
+					<RoleCd value="009">
+					</RoleCd>
+				</role>
+				<rpCntInfo>
+					<cntAddress>
+						<delPoint>140 7th Ave. South</delPoint>
+						<city>St. Petersburg</city>
+						<adminArea>FL</adminArea>
+						<postCode>33701</postCode>
+						<eMailAdd>kranenbu@marine.usf.edu</eMailAdd>
+						<country>us</country>
+					</cntAddress>
+					<cntPhone>
+						<voiceNum>727-553-3987</voiceNum>
+						<faxNum>727-553-1130</faxNum>
+					</cntPhone>
+				</rpCntInfo>
+			</citRespParty>
+			<resRefDate>
+				<refDate>2008</refDate>
+				<refDateType>
+					<DateTypCd value="002"/>
+				</refDateType>
+			</resRefDate>
+			<resTitle>Chagos</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"/>
+			</presForm>
+			<resEd>version 6</resEd>
+			<resEdDate>20070611</resEdDate>
+			<resRefDate>
+				<refDate>20050809</refDate>
+				<refDateType>
+					<DateTypCd value="001"/>
+				</refDateType>
+			</resRefDate>
+			<resRefDate>
+				<refDate>20080418</refDate>
+				<refDateType>
+					<DateTypCd value="003"/>
+				</refDateType>
+			</resRefDate>
+		</idCitation>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009"/>
+			</maintFreq>
+		</resMaint>
+		<resConst>
+			<Consts>
+				<useLimit>THIS DATASET IS NOT TO BE USED FOR NAVIGATION OR LITIGATION! While efforts have been made to ensure that these data are accurate and reliable, the authors and affiliated institutions assume no liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data being used on any particular system. Neither USF or IRD, nor any of its employees or affiliates provide any warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</useLimit>
+				<useLimit>Acknowledgement of the USF-IMaRS (University of South Florida - Institute for Marine Remote Sensing) and IRD (Institut de Recherche Pour le Developpement) as the data source is required in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data. Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection.</useLimit>
+			</Consts>
+		</resConst>
+		<descKeys KeyTypCd="005">
+			<keyTyp>
+				<KeyTypCd value="005">
+				</KeyTypCd>
+			</keyTyp>
+			<thesaName>
+				<resTitle>CoRIS Theme Thesaurus 20070430</resTitle>
+				<resRefDate>
+					<refDate>20070430</refDate>
+					<refDateType>
+						<DateTypCd value="003"/>
+					</refDateType>
+				</resRefDate>
+			</thesaName>
+			<keyword>EARTH SCIENCE &gt; Oceans &gt; Coastal Processes &gt; Coral Reefs</keyword>
+			<keyword>EARTH SCIENCE &gt; Oceans &gt; Coastal Processes &gt; Coral Reefs &gt; Coral Reef Ecology</keyword>
+			<keyword>EARTH SCIENCE &gt; Oceans &gt; Coastal Processes &gt; Coral Reefs &gt; Coral reef ecology &gt; Coral cover</keyword>
+			<keyword>EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef monitoring and assessment &gt; Mapping &gt; geomorphology mapping</keyword>
+			<keyword>EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef monitoring and assessment &gt; Remote sensing</keyword>
+			<keyword>EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef monitoring and assessment &gt; Mapping &gt; Base map &gt; Satellite imagery</keyword>
+			<keyword>EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef monitoring and assessment &gt; Remote sensing &gt; Satellite (digital scans)</keyword>
+			<keyword>EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef monitoring and assessment &gt; GIS</keyword>
+		</descKeys>
+		<descKeys KeyTypCd="005">
+			<keyTyp>
+				<KeyTypCd value="005">
+				</KeyTypCd>
+			</keyTyp>
+			<thesaName>
+				<resTitle>ISO 19115 Topic Category</resTitle>
+			</thesaName>
+			<keyword>biota</keyword>
+			<keyword>environment</keyword>
+			<keyword>geoscientificinformation</keyword>
+			<keyword>imageryBaseMapsEarthCover</keyword>
+			<keyword>oceans</keyword>
+		</descKeys>
+		<tpCat>
+			<TopicCatCd value="002"/>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="007"/>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="010"/>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="014"/>
+		</tpCat>
+		<descKeys KeyTypCd="005">
+			<keyTyp>
+				<KeyTypCd value="005"/>
+			</keyTyp>
+			<thesaName>
+				<resTitle>None</resTitle>
+			</thesaName>
+			<keyword>Millennium Corals</keyword>
+			<keyword>LANDSAT</keyword>
+			<keyword>classification</keyword>
+			<keyword>global shoreline</keyword>
+		</descKeys>
+		<descKeys KeyTypCd="001">
+			<keyTyp>
+				<KeyTypCd value="001">
+				</KeyTypCd>
+			</keyTyp>
+			<keyword>Coral Reef Ecology</keyword>
+			<keyword>Remote Sensing</keyword>
+			<keyword>Marine Science</keyword>
+			<thesaName>
+				<resTitle>NONE</resTitle>
+			</thesaName>
+		</descKeys>
+		<geoBox/>
+		<dataExt>
+			<tempEle>
+				<TempExtent>
+					<exTemp>
+						<TM_GeometricPrimitive>
+							<TM_Period>
+								<begin>1999</begin>
+								<end>2003</end>
+							</TM_Period>
+						</TM_GeometricPrimitive>
+					</exTemp>
+				</TempExtent>
+			</tempEle>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">70.779182</westBL>
+					<eastBL Sync="TRUE">72.737477</eastBL>
+					<northBL Sync="TRUE">-4.730653</northBL>
+					<southBL Sync="TRUE">-7.68532</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataScale>
+			<scaleDist>
+				<value>30</value>
+				<uom>
+					<UomScale>
+						<uomName>Meters</uomName>
+						<conversionToISOstandardUnit>1 Meter = 1 m</conversionToISOstandardUnit>
+					</UomScale>
+				</uom>
+			</scaleDist>
+		</dataScale>
+		<idAbs>This dataset represents polygon coverage of coral reefs worldwide developed under the Millennium Coral Reef Mapping Project funded by NASA (grant #NAG5-10908) and IRD. The polygons are derived from the interpretation and classification of Landsat images. The Landsat images used are publicly available from http://oceancolor.gsfc.nasa.gov/cgi/landsat.pl
+
+Coral reefs are described hierarchically following five levels of geomorphologic and geographic information (L1, L2, L3, L4, L5). The most detailed scheme (L5) includes approximately 800 classes.
+
+The product also includes the most accurate shoreline product to date, obtained after interpretation from Landsat images, and since 2005, after correction of the Shuttle Radar Terrain Mission water-body product.
+		</idAbs>
+		<descKeys KeyTypCd="002">
+			<keyTyp>
+				<KeyTypCd value="002">
+				</KeyTypCd>
+			</keyTyp>
+			<thesaName>
+				<resTitle>NASA/GCMD Location Keywords</resTitle>
+				<resRefDate>
+					<refDate>20080205</refDate>
+					<refDateType>
+						<DateTypCd value="003"/>
+					</refDateType>
+				</resRefDate>
+			</thesaName>
+			<keyword>Ocean &gt; Indian Ocean</keyword>
+		</descKeys>
+		<descKeys KeyTypCd="002">
+			<keyTyp>
+				<KeyTypCd value="002">
+				</KeyTypCd>
+			</keyTyp>
+			<thesaName>
+				<resTitle>ISO 3166-1</resTitle>
+				<resRefDate>
+					<refDate>20071009</refDate>
+					<refDateType>
+						<DateTypCd value="003"/>
+					</refDateType>
+				</resRefDate>
+			</thesaName>
+			<keyword>BRITISH INDIAN OCEAN TERRITORY</keyword>
+			<keyword>IO</keyword>
+		</descKeys>
+		<dataLang>
+			<languageCode value="en"/>
+		</dataLang>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</envirDesc>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"/>
+		</spatRpType>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">70.779182</westBL>
+			<eastBL Sync="TRUE">72.737477</eastBL>
+			<northBL Sync="TRUE">-4.730653</northBL>
+			<southBL Sync="TRUE">-7.68532</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<descKeys KeyTypCd="002">
+			<keyTyp>
+				<KeyTypCd value="002"/>
+			</keyTyp>
+			<keyword>Chagos</keyword>
+			<keyword>Diego Garcia</keyword>
+			<keyword>BIOT</keyword>
+			<thesaName>
+				<resTitle>NONE</resTitle>
+			</thesaName>
+		</descKeys>
+	</dataIdInfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">GCS_WGS_1984</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<mdDateSt Sync="TRUE">20080422</mdDateSt>
+	<mdHrLv>
+		<ScopeCd value="005" Sync="TRUE">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd value="004" Sync="TRUE">
+		</CharSetCd>
+	</mdChar>
+	<metainfo>
+		<metd Sync="TRUE">20080409</metd>
+	</metainfo>
+	<dqInfo>
+		<dataLineage>
+			<statement>This dataset was created through manual image interpretation of Landsat satellite imagery. For a detailed description of the mapping process, please refer to the following publication: 
+
+Andrefouet S, Muller-Karger FE, Robinson JA, Kranenburg CJ, Torres-Pulliza  D, Spraggins SA, Murch B,   "Global assessment of modern coral reef extent and diversity for regional science and management applications: a view from space", Proceedings of 10th International Coral Reef Symposium (ICRS '04), 2006 (1732:1745).</statement>
+		</dataLineage>
+		<dqScope>
+			<scpLvl>
+				<ScopeCd value="005">
+				</ScopeCd>
+			</scpLvl>
+		</dqScope>
+	</dqInfo>
+	<distInfo>
+		<distributor>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+				<formatVer>ArcGIS 9.1</formatVer>
+			</distorFormat>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<protocol>http</protocol>
+					<orFunct>
+						<OnFunctCd value="001">
+						</OnFunctCd>
+					</orFunct>
+					<linkage Sync="FALSE">http://www.imars.marine.usf.edu/MC/</linkage>
+				</onLineSrc>
+				<transSize Sync="TRUE">4.167</transSize>
+			</distorTran>
+			<distorCont>
+				<rpIndName>Christine Kranenburg</rpIndName>
+				<rpOrgName>University of South Florida</rpOrgName>
+				<rpPosName>GIS Analyst</rpPosName>
+				<rpCntInfo>
+					<cntAddress>
+						<delPoint>140 7th Ave. South</delPoint>
+						<city>St. Petersburg</city>
+						<adminArea>FL</adminArea>
+						<postCode>33701</postCode>
+						<eMailAdd>kranenbu@marine.usf.edu</eMailAdd>
+						<country>us</country>
+					</cntAddress>
+					<cntPhone>
+						<voiceNum>727-553-3987</voiceNum>
+						<faxNum>727-553-1130</faxNum>
+					</cntPhone>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="001">
+					</RoleCd>
+				</role>
+			</distorCont>
+			<distorOrdPrc>
+				<ordInstr>Kindly e-mail data request along with a short summary of the intended use to serge.andrefouet@noumea.ird.nc</ordInstr>
+				<resFees>NONE</resFees>
+				<ordTurn>3 days or less</ordTurn>
+			</distorOrdPrc>
+		</distributor>
+	</distInfo>
+	
+	<!-- Idinfo section added for thumbnail. Change temp0 to name of thumbnail image 
+	<idinfo>
+		<browse>
+			<img src="temp0.bmp"/>
+		</browse>
+	</idinfo-->
+	<!-- Entity & Attribute Information - swiped from FGDC -->
+	<eainfo>
+		<detailed Name="Chagos_v6">
+			<enttyp>
+				<enttypl Sync="TRUE">Chagos_v6</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">2001</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape_Leng</attrlabl>
+				<attalias Sync="TRUE">Shape_Leng</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atnumdec Sync="TRUE">11</atnumdec>
+				<attrdef Sync="FALSE">Length of feature in meters.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape_Area</attrlabl>
+				<attalias Sync="TRUE">Shape_Area</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<attrdef Sync="FALSE">Area of feature in square meters.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">11</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">L1_CODE</attrlabl>
+				<attalias Sync="FALSE">L1_CODE</attalias>
+				<attrtype Sync="FALSE">Number</attrtype>
+				<attwidth Sync="FALSE">19</attwidth>
+				<attrdef Sync="FALSE">Numeric encoding of L1_ATTRIB</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">[0, 1, 2]</edomv>
+						<edomvd Sync="FALSE">0 - Oceanic
+1 - Continental
+2 - Main Land
+						</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">L1_ATTRIB</attrlabl>
+				<attalias Sync="FALSE">L1_ATTRIB</attalias>
+				<attrtype Sync="FALSE">String</attrtype>
+				<attwidth Sync="FALSE">40</attwidth>
+				<attrdef Sync="FALSE">First hierarchical node in the hierarchy of reef types: separates reefs into continental and oceanic reefs.</attrdef>
+				<attrdefs Sync="FALSE">USF. See http://www.imars.usf.edu/MC/misc/Documentation.pdf</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">L2_CODE</attrlabl>
+				<attalias Sync="FALSE">L2_CODE</attalias>
+				<attrtype Sync="FALSE">Number</attrtype>
+				<attwidth Sync="FALSE">19</attwidth>
+				<attrdef Sync="FALSE">Numeric encoding of L2_ATTRIB</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">[1..14, 1000, 1001]</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">L2_ATTRIB</attrlabl>
+				<attalias Sync="FALSE">L2_ATTRIB</attalias>
+				<attrtype Sync="FALSE">String</attrtype>
+				<attwidth Sync="FALSE">40</attwidth>
+				<attrdef Sync="FALSE">Second hierarchical node in the hierarchy of reef types: separates each of the L1 categories into broad geomorphological reef complexes: atoll, bank, island, outer shelf barrier reef, intra-shelf barrier reef, fringing reef, shelf reef.</attrdef>
+				<attrdefs Sync="FALSE">USF. See http://www.imars.usf.edu/MC/misc/Documentation.pdf</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">L3_CODE</attrlabl>
+				<attalias Sync="FALSE">L3_CODE</attalias>
+				<attrtype Sync="FALSE">Number</attrtype>
+				<attwidth Sync="FALSE">19</attwidth>
+				<attrdef Sync="FALSE">Numeric encoding of L3_ATTRIB</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">[1..40, 1000, 1001]</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">L3_ATTRIB</attrlabl>
+				<attalias Sync="FALSE">L3_ATTRIB</attalias>
+				<attrtype Sync="FALSE">String</attrtype>
+				<attwidth Sync="FALSE">50</attwidth>
+				<attrdef Sync="FALSE">Third hierarchical node in the hierarchy of reef types: separates each of the L2 broad geomorphological reef complexes into specific sub-complexes reflecting different exposure.</attrdef>
+				<attrdefs Sync="FALSE">USF. See http://www.imars.usf.edu/MC/misc/Documentation.pdf</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">L4_CODE</attrlabl>
+				<attalias Sync="FALSE">L4_CODE</attalias>
+				<attrtype Sync="FALSE">Number</attrtype>
+				<attwidth Sync="FALSE">19</attwidth>
+				<attrdef Sync="FALSE">Numeric encoding of the L4_ATTRIB</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">[1..65, 999, 1000, 1001]</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">L4_ATTRIB</attrlabl>
+				<attalias Sync="FALSE">L4_ATTRIB</attalias>
+				<attrtype Sync="FALSE">String</attrtype>
+				<attwidth Sync="FALSE">60</attwidth>
+				<attrdef Sync="FALSE">Set of geomorphological units detectable with Landsat images.</attrdef>
+				<attrdefs Sync="FALSE">USF. See http://www.imars.usf.edu/MC/misc/Documentation.pdf</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">L5_CODE</attrlabl>
+				<attalias Sync="FALSE">L5_CODE</attalias>
+				<attrtype Sync="FALSE">Number</attrtype>
+				<attwidth Sync="FALSE">19</attwidth>
+				<attrdef Sync="FALSE">Last hierarchical node in the hierarchy of reef types: separates each of the L3 sub-complexes into geomorphological units described in L4. The combination of L3 and L4 makes the most detailed typology of reef units.</attrdef>
+				<attrdefs Sync="FALSE">USF. See http://www.imars.usf.edu/MC/misc/Documentation.pdf</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">[1..800, 1000, 1001]</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">REEF</attrlabl>
+				<attalias Sync="FALSE">REEF</attalias>
+				<attrtype Sync="FALSE">String</attrtype>
+				<attwidth Sync="FALSE">40</attwidth>
+				<attrdef Sync="FALSE">A binary transformation of L5 categories into reef/non-reef categories.</attrdef>
+				<attrdefs Sync="FALSE">USF. See http://www.imars.usf.edu/MC/misc/Documentation.pdf</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">[0, 1]</edomv>
+						<edomvd Sync="FALSE">1 - hardbottom areas with potentially higher coral cover.
+0 - soft-bottom-dominated, marginal and deep areas with limited coral communities.
+						</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">LAND</attrlabl>
+				<attalias Sync="FALSE">LAND</attalias>
+				<attrtype Sync="FALSE">String</attrtype>
+				<attwidth Sync="FALSE">40</attwidth>
+				<attrdef Sync="FALSE">A binary transformation of L5 categories into land/non-land categories.</attrdef>
+				<attrdefs Sync="FALSE">USF. See http://www.imars.usf.edu/MC/misc/Documentation.pdf</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">[0, 1]</edomv>
+						<edomvd>1 - all vegetated and land areas (continents, islands, islets, motus) including mangroves.
+0 - submerged and intertidal features.
+						</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">RB_CODE</attrlabl>
+				<attalias Sync="FALSE">RB_CODE</attalias>
+				<attrtype Sync="FALSE">Number</attrtype>
+				<attwidth Sync="FALSE">19</attwidth>
+				<attrdef Sync="FALSE">Numeric encoding of RB_ATTRIB</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">Integer values in the range [0..11]</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">RB_ATTRIB</attrlabl>
+				<attalias Sync="FALSE">RB_ATTRIB</attalias>
+				<attrtype Sync="FALSE">String</attrtype>
+				<attwidth Sync="FALSE">40</attwidth>
+				<attrdef Sync="FALSE">A transformation of L5 categories used for display in REEFBASE's online GIS.</attrdef>
+				<attrdefs>REEFBASE. version Nov. 2006. http://www.reefbase.org.</attrdefs>
+				<attrdefs>See http://www.imars.usf.edu/MC/misc/Documentation.pdf</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">DEPTH_CODE</attrlabl>
+				<attalias Sync="FALSE">DEPTH_CODE</attalias>
+				<attrtype Sync="FALSE">Number</attrtype>
+				<attwidth Sync="FALSE">19</attwidth>
+				<attrdef Sync="FALSE">Numeric encoding of DepthLabel Attribute</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">[0, 1, 2, 3]</edomv>
+						<edomvd>0 - shallow
+1 - variable
+2 - deep
+3 - land
+						</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">DEPTHLABEL</attrlabl>
+				<attalias Sync="FALSE">DEPTHLABEL</attalias>
+				<attrtype Sync="FALSE">String</attrtype>
+				<attwidth Sync="FALSE">40</attwidth>
+				<attrdef Sync="FALSE">A transformation of L5 categories into three categories of depth range: shallow, variable and deep.</attrdef>
+				<attrdefs Sync="FALSE">USF. See http://www.imars.usf.edu/MC/misc/Documentation.pdf</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">RB_DEPTH_C</attrlabl>
+				<attalias Sync="FALSE">RB_DEPTH_C</attalias>
+				<attrtype Sync="FALSE">Number</attrtype>
+				<attwidth Sync="FALSE">19</attwidth>
+				<attrdef Sync="FALSE">Numeric encoding of RB_DEPTH_A</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">Integer values in the range [1..7]</edomv>
+						<edomvd>1 - shallow reef
+2 - variable depth reef
+3 - deep reef
+4 - shallow non-reef
+5 - variable depth non-reef
+6 - deep non-reef
+7 - land
+						</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">RB_DEPTH_A</attrlabl>
+				<attalias Sync="FALSE">RB_DEPTH_A</attalias>
+				<attrtype Sync="FALSE">String</attrtype>
+				<attwidth Sync="FALSE">40</attwidth>
+				<attrdef Sync="FALSE">A combination of the LAND, REEF and DEPTH attributes. The 3 depth classes (shallow, variable, deep) are used to subdivide the REEF and LAND classifications. Used for display in REEFBASE's online GIS.</attrdef>
+				<attrdefs>REEFBASE. version Nov. 2006. http://www.reefbase.org.</attrdefs>
+				<attrdefs>See http://www.imars.usf.edu/MC/misc/Documentation.pdf</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="FALSE">Validated</attrlabl>
+				<attalias Sync="FALSE">Validated</attalias>
+				<attrtype Sync="FALSE">Number</attrtype>
+				<attwidth Sync="FALSE">4</attwidth>
+				<attrdef Sync="FALSE">ID of person who validated dataset</attrdef>
+				<attrdefs Sync="FALSE">USF</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv Sync="FALSE">Integer values in the range [0..3]</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">I:\projects\meta\MC_template7.xml</srcused>
+				<date Sync="TRUE">20080409</date>
+				<time Sync="TRUE">13442100</time>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"/>
+	</mdLang>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001"/>
+			</topLvl>
+			<geometObjs Name="Chagos_v6">
+				<geoObjTyp>
+					<GeoObjTypCd Sync="TRUE" value="001"/>
+				</geoObjTyp>
+				<geoObjCnt Sync="TRUE">2001</geoObjCnt>
+			</geometObjs>
+		</VectSpatRep>
+	</spatRepInfo>
+	<idinfo>
+		<natvform Sync="TRUE">Shapefile</natvform>
+	</idinfo>
+	<distinfo>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">5.214</transize>
+					<dssize Sync="TRUE">5.214</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+</metadata>

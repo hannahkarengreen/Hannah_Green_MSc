@@ -16,10 +16,10 @@ setwd("~/")
 #load in data
 fish <- read.csv("fish.csv")
 fish[,6:ncol(fish)] <- sapply(fish[,6:ncol(fish)], as.numeric)
-fish$Year <- as.numeric(format(as.Date(fish$ï..Date, format="%m/%d/%y"), "%Y"))
+fish$Year <- as.numeric(format(as.Date(fish$Ã¯..Date, format="%m/%d/%y"), "%Y"))
 fish$YearS <- fish$Year - 2006
 fish <- as.data.frame(subset(fish, Year != "NA"))
-fish$Month <- as.numeric(format(as.Date(fish$ï..Date, format="%m/%d/%y"), "%m"))
+fish$Month <- as.numeric(format(as.Date(fish$Ã¯..Date, format="%m/%d/%y"), "%m"))
 fish$CPUE <- fish$Catch.kg.100hrs/12.5
 fish <- mutate(fish, CT = ifelse(Craft_Type == "BW", "BW/OM", 
                                  ifelse(Craft_Type == "OM", "BW/OM", Craft_Type)))
@@ -412,7 +412,7 @@ boxplot(TOTAL$Others.kg)
 #homogeneity of variances
 var(TOTAL$Total_Weight.kg)
 var(TOTAL$Fishing_Effort)
-#these variances are homogeneous
+#these variances seem homogeneous
 var(TOTAL$Year) #modeled with a thin plate regression spline 
 
 #histogram of fishing effort
@@ -430,7 +430,7 @@ table(TOTAL$Total_Weight.kg)
 #Year into a sequence from 1 to 13
 TOTAL$YearS <- TOTAL$Year - 2006
 
-#turn month into a seasonal curve, by modelling as a sinusoidal function
+#turn month into a seasonal curve, by modeling as a sinusoidal function
 TOTAL$cmonth <- with(TOTAL, cos(2*pi*Month/12))
 TOTAL$smonth <- with(TOTAL, sin(2*pi*Month/12))
 
@@ -459,7 +459,7 @@ summary.gam(Model1)
 par(mfrow=c(2,2))
 gam.check(Model1)
 #deviance vs quantiles plot close to 1:1 straight line
-#other plots not looking great but potentially due to binomail
+#other plots not looking great but potentially due to binomial
 #distribution so bear in mind when checking
 #whether the predicted values are reasonable
 
@@ -494,7 +494,7 @@ summary.gam(Model2)
 
 #diagnostic plots
 par(mfrow=c(2,2))
-gam.check(Model2, old.style=TRUE)
+gam.check(Model2)
 #model required no smoothing parameter selection
 #all fantastic residual plots
 
@@ -673,13 +673,14 @@ gam.check(Model3)
 Pelagic2 <- as.data.frame(subset(Pelagic, Pelagic.kg >0))
 
 #histogram of fishing effort
-hist(Pelagic2$Fishing_Effort)
+hist(Pelagic2$Fishing_Effort, breaks=9)
 # right skewed 
-hist(log(Pelagic2$Fishing_Effort))
+hist(log(Pelagic2$Fishing_Effort), breaks=9)
 #modeled as logged offset
 
 #histogram of response variable
 hist(Pelagic2$Pelagic.kg)
+
 
 Mod4 <- gam(Pelagic.kg ~ s(YearS) + cmonth + smonth  + Location + 
               offset(log(Fishing_Effort)), 
@@ -2403,7 +2404,7 @@ hist(as.numeric(lengthsWA$TL..cm.))
 #similar enough total lengths so no need to account for this in SIA analyses
 
 mydata <- read.csv('isotopes.csv', header=TRUE)
-mydata <- rename(mydata, iso1 = ï..iso1)
+mydata <- rename(mydata, iso1 = Ã¯..iso1)
 siber.example <- createSiberObject(mydata)
 siber.example$sample.sizes
 
@@ -2441,7 +2442,17 @@ print(group.ML)
 #descriptive stats
 
 #Table 3: range, mrean and sd of N and C isotopes
-
+Table3 <- as.data.frame(mydata %>%
+                        group_by(group, community) %>%
+                        summarise(Nmin = min(iso2),
+                                  Nmax = max(iso2),
+                                  Nmean = mean(iso2),
+                                  Nsd = sd(iso2),
+                                  Cmin = min(iso1),
+                                  Cmax = max(iso1),
+                                  Cmean = mean(iso1),
+                                  Csd = sd(iso1)))
+Table3
 
 #N=
 nrow(mydata)
@@ -2449,6 +2460,7 @@ nrow(mydata)
 #two-way MANOVA to compare regional mean C and N values for both species
 
 #boxplots
+par(mfrow=c(1,2))
 boxplot(mydata$iso1)
 boxplot(mydata$iso2)
 #some outliers but nothing too biologically unrealistic
@@ -2460,21 +2472,21 @@ hist(mydata$iso2)
 
 #homogeneity of variances
 var(mydata$iso1) /var(mydata$iso2)
-#similar variances, only 2x different (>4x)
+#similar variances, only 2x different (<4x)
 
 #colinearity in explanatory variables
 chisq.test(mydata$group, mydata$community, correct=FALSE)
 #these variables are independent of one another
 
 #two-way MANOVA
+mod_interaction <- manova(cbind(iso1, iso2) ~ group + community + group*community, data = mydata)
+summary(mod_interaction)
+#interaction not significant so removed
 mod <- manova(cbind(iso1, iso2) ~ group + community, data = mydata)
 summary(mod)
 #indicates significant effects of both species (group) and atoll (community)
 summary.aov(mod)
 #apart from no significant effect of species on N (feeding at the same trophic level)
-mod_interaction <- manova(cbind(iso1, iso2) ~ group + community + group*community, data = mydata)
-summary(mod_interaction)
-#interaction not significant so removed
 summary(mod, test="Wilks")
 
 #two-way ANOVA for C values
@@ -2540,11 +2552,12 @@ WAGWAS <- maxLikOverlap(ellipse3, ellipse4, siber.example,
 #overlap as a percent of non-overlapping area
 WAGWAS[3] / (WAGWAS[1] + WAGWAS[2] - WAGWAS[3])
 
-mydata2 <- read.csv('isotopes1.csv', header=TRUE)
-mydata2 <- rename(mydata2, iso1 = ï..iso1)
+
 
 #Supplementary SIA:
 #plotting biplots of the data in ggplot
+mydata2 <- read.csv('isotopes1.csv', header=TRUE)
+mydata2 <- rename(mydata2, iso1 = Ã¯..iso1)
 ggplot()+
   geom_point(data=mydata2, aes(x=iso1, y=iso2, colour=community, pch=group), 
              size=1.3, alpha=.8)+
